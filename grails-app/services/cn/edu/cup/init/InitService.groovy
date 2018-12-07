@@ -194,7 +194,7 @@ class InitService {
         if (configFile.exists()) {
             config = com.alibaba.fastjson.JSON.parse(configFile.text)
             if (config.scripts) {
-                println("脚本文件：" + scriptsTemp)
+                println("脚本文件：" + config.scripts)
                 config.scripts.each { e ->
                     loadScripts("${webRootDir}${e}")
                 }

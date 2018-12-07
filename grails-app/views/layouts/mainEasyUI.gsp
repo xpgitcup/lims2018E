@@ -48,15 +48,6 @@
 
     <asset:javascript src="jquery/jquery.cookie.js"/>
 
-    <!--bootstrap datetimepicker-->
-    <!--asset:javascript src="bootstrap-datetimepicker/bootstrap-datetimepicker.min.js"/-->
-
-    <!--引入jqpagination-->
-    <!--asset:javascript src="jqpagination/jquery.jqpagination.min.js"/-->
-
-    <!--引入拓扑图工具 -->
-    <!--asset:javascript src="jtopo/jtopo-0.4.8-min.js"/-->
-
     <!--引入绘图工具 -->
     <asset:javascript src="echarts/echarts.js"/>
 
