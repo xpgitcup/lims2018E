@@ -6,7 +6,10 @@
     <title>
         <g:layoutTitle default="Grails"/>
     </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!--这是版本3的设置-->
+    <!--meta name="viewport" content="width=device-width, initial-scale=1"/-->
+    <!--这是版本4的设置-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- 界面设置开始 -->
     <asset:stylesheet src="application.css"/>
@@ -25,12 +28,14 @@
     <!--asset:stylesheet src="cn/edu/cup/cupEasyUi.css"/-->
     <asset:stylesheet src="cn/edu/cup/cup.css"/>
 
+    <!--bootstrap 4 的设置-->
+    <asset:stylesheet src="bootstrap.min.css"/>
     <!--JS加载-->
     <asset:javascript src="jquery-3.3.1.min.js"/>
+    <asset:javascript src="popper.min.js"/>
+    <asset:javascript src="bootstrap.min.js"/>
 
     <asset:javascript src="easyui/jquery.easyui.min.js"/>
-
-    <asset:javascript src="bootstrap.js"/>
     <asset:javascript src="bootstrap-treeview/bootstrap-treeview.min.js"/>
     <asset:javascript src="jquery/jquery.cookie.js"/>
     <!--引入jqpagination-->
@@ -48,7 +53,7 @@
 </head>
 
 <body>
-<div class="container">
+<div class="container-fluid">
 
     %{--导航栏kq--}%
     <!--div class="navbar navbar-default navbar-static-top" role="navigation"-->
